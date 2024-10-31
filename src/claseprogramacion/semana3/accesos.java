@@ -8,7 +8,7 @@ public class accesos {
     public static final String ANSI_GREEN = "\u001B[32m";
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String ccorrecta = "churro98";
+        String ccorrecta = "churro988";
         String cclave;
         int intentos = 0, maxintentos = 4 ;
 
