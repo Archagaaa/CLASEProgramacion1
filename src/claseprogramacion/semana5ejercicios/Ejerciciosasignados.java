@@ -3,7 +3,7 @@ package claseprogramacion.semana5ejercicios;
 
 import java.util.Scanner;
 
-public class ejercicio1ventas {
+public class Ejerciciosasignados {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int nventas = 0;
