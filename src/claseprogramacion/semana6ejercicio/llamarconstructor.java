@@ -23,7 +23,6 @@ public class llamarconstructor {
         for (int i = 0; i < personas.length - 1; i++) {
             for (int j = 0; j < personas.length - 1 - i; j++) {
                 if (personas[j].edad > personas[j + 1].edad) {
-                    // Intercambiar personas[j] y personas[j+1]
                     persona temp = personas[j];
                     personas[j] = personas[j + 1];
                     personas[j + 1] = temp;
