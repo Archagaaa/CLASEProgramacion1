@@ -74,7 +74,6 @@ public class Ejerciciosasignados {
                 System.out.print(numero + " ");
                 }
             }
-   
             break;
             
         default:
