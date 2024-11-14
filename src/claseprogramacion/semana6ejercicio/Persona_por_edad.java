@@ -1,9 +1,9 @@
-
+//Crear un programama que solicite el nombre y la edad de 6 personas y luego las ordene por edades
 package claseprogramacion.semana6ejercicio;
 
 import java.util.Scanner;
 
-public class llamarconstructor {
+public class Persona_por_edad {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         persona[] personas = new persona[6]; 
@@ -31,7 +31,7 @@ public class llamarconstructor {
         }
         
         //Mostrar
-        System.out.println("\nPersonas ordenadas por edad:");
+        System.out.println("Personas ordenadas por edad:");
         for (persona persona : personas) {
             persona.mostrarpersona();
         }
