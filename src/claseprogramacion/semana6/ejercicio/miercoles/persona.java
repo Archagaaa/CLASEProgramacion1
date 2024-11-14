@@ -1,4 +1,4 @@
-package claseprogramacion.semana6ejercicio;
+package claseprogramacion.semana6.ejercicio.miercoles;
 
 public class persona {
     String nombre;

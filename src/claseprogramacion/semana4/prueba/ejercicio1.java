@@ -1,4 +1,4 @@
-package claseprogramacion.semana4prueba;
+package claseprogramacion.semana4.prueba;
 
 import java.util.Scanner;
 

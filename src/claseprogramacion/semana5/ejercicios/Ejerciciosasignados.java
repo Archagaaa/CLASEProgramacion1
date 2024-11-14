@@ -1,7 +1,7 @@
 //Aaron Esteban Archaga Rostran 22451016
 //Carlos Mauricio Rodriguez Altamirano 222411261
 
-package claseprogramacion.semana5ejercicios;
+package claseprogramacion.semana5.ejercicios;
 
 import java.util.Scanner;
 

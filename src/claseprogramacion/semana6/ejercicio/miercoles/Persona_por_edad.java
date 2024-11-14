@@ -1,5 +1,5 @@
 //Crear un programama que solicite el nombre y la edad de 6 personas y luego las ordene por edades
-package claseprogramacion.semana6ejercicio;
+package claseprogramacion.semana6.ejercicio.miercoles;
 
 import java.util.Scanner;
 
