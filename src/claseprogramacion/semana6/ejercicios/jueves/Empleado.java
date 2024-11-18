@@ -57,16 +57,5 @@ package claseprogramacion.semana6.ejercicios.jueves;
     public void setAntiguedad(int antiguedad) {
         this.antiguedad = antiguedad;
     }
-    
-    //Metodo para mostrar la info
-    public void mostrarinfo(){
-        System.out.println("=====INFORMACION=====");
-        System.out.println("Nombre: "+nombre);
-        System.out.println("Genero: "+genero);
-        System.out.println("Edad: "+edad);
-        System.out.println("Salario: "+salario);
-        System.out.println("Antiguedad: "+antiguedad+" anios");
-    }
 }
-
 

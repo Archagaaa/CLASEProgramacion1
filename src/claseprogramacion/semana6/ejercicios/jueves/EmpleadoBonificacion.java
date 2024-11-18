@@ -10,15 +10,19 @@ public class EmpleadoBonificacion extends Empleado{
         Super agarra todas las variables inicializadas del construcor de empleado
         */
         super(nombre, salario, genero, edad, antiguedad);
+        calcularbonificacion();
         
+    }
+    
+    public void calcularbonificacion(){
         //Calcular la bonificacion
-        if (salario > 18900 && antiguedad > 5){
+        if (salario <= 18900 && antiguedad >= 5){
             bonificacion = salario * 0.10;
         }
-        else if(salario > 25000 && salario <= 45000 && antiguedad > 7) {
+        else if(salario >= 25000 && salario <= 45000 && antiguedad >= 7) {
             bonificacion = salario * 0.15;
         }
-        else if(salario > 45000){
+        else if(salario >= 45000){
             bonificacion = salario * 0.20;
         }
         else {
@@ -29,11 +33,6 @@ public class EmpleadoBonificacion extends Empleado{
         salariofinal = salario + bonificacion;
     }
     
-    /*
-    Sobreescribir para el metodo de mostrar informacion
-    agregando la bonificacion y el salariofinal
-    */
-    @Override
     public void mostrarinfo(){
         System.out.println("=====INFORMACION=====");
         System.out.println("Nombre: "+nombre);
