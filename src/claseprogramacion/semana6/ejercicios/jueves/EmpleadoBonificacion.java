@@ -10,12 +10,6 @@ public class EmpleadoBonificacion extends Empleado{
         Super agarra todas las variables inicializadas del construcor de empleado
         */
         super(nombre, salario, genero, edad, antiguedad);
-        //Inicializar las variables
-        this.nombre = nombre;
-        this.salario = salario;
-        this.genero = genero;
-        this.edad = edad;
-        this.antiguedad = antiguedad;
         
         //Calcular la bonificacion
         if (salario > 18900 && antiguedad > 5){
@@ -36,7 +30,7 @@ public class EmpleadoBonificacion extends Empleado{
     }
     
     /*
-    Sobreescribir para el metodo de mostras informacion
+    Sobreescribir para el metodo de mostrar informacion
     agregando la bonificacion y el salariofinal
     */
     @Override
