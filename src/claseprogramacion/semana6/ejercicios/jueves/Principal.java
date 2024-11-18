@@ -13,7 +13,6 @@ public class Principal {
         System.out.println("Ingrese el salario: ");
         empleado.setSalario(sc.nextDouble());
         
-        
         System.out.println("Ingrese el genero: ");
         empleado.setGenero(sc.next());
         
