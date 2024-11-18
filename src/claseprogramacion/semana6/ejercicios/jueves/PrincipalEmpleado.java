@@ -1,6 +1,6 @@
 package claseprogramacion.semana6.ejercicios.jueves;
 /*
-TRABAJO HECHO Carlos Mauricio Rodriguez Altamirano 222411261 
+TRABAJO HECHO Carlos Mauricio Rodriguez Altamirano 222411261.
 */
 import java.util.Scanner;
 
