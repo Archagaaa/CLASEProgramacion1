@@ -1,5 +1,7 @@
 package claseprogramacion.semana6.ejercicios.jueves;
-
+/*
+TRABAJO HECHO Carlos Mauricio Rodriguez Altamirano 222411261 
+*/
 public class EmpleadoBonificacion extends Empleado{
     double bonificacion;
     double salariofinal;
