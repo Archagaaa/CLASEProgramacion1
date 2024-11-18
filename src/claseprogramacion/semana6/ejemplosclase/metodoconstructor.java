@@ -1,4 +1,4 @@
-package claseprogramacion.semana6;
+package claseprogramacion.semana6.ejemplosclase;
 
 public class metodoconstructor {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package claseprogramacion.semana6;
+package claseprogramacion.semana6.ejemplosclase;
 
 public class turismo extends carro{
     int tambaul;
