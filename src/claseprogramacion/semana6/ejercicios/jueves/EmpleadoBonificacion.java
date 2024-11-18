@@ -1,6 +1,6 @@
 package claseprogramacion.semana6.ejercicios.jueves;
 /*
-TRABAJO HECHO Carlos Mauricio Rodriguez Altamirano 222411261 
+TRABAJO HECHO con Carlos Mauricio Rodriguez Altamirano 222411261 
 */
 public class EmpleadoBonificacion extends Empleado{
     double bonificacion;
@@ -13,7 +13,6 @@ public class EmpleadoBonificacion extends Empleado{
         */
         super(nombre, salario, genero, edad, antiguedad);
         calcularbonificacion();
-        
     }
     
     public void calcularbonificacion(){
@@ -35,6 +34,7 @@ public class EmpleadoBonificacion extends Empleado{
         salariofinal = salario + bonificacion;
     }
     
+    //Presentar
     public void mostrarinfo(){
         System.out.println("=====INFORMACION=====");
         System.out.println("Nombre: "+nombre);
