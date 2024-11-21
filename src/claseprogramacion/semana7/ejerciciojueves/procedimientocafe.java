@@ -94,6 +94,6 @@ public class procedimientocafe {
         System.out.println("Cafes pequenos vendidos: " + totalpequenos);
         System.out.println("Cafes medianos vendidos: " + totalmedianos);
         System.out.println("Cafes grandes vendidos: " + totalgrandes);
-        System.out.printf("Total en caja del dia:", totalcaja);
+        System.out.printf("Total en caja del dia:"+ totalcaja);
     }
 }
