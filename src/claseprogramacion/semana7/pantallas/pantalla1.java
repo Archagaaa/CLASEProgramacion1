@@ -1,4 +1,4 @@
-package claseprogramacion.semana7;
+package claseprogramacion.semana7.pantallas;
 
 public class pantalla1 extends javax.swing.JFrame {
 
