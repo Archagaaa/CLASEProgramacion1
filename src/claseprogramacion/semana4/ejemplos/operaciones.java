@@ -1,4 +1,4 @@
-package claseprogramacion.semana4;
+package claseprogramacion.semana4.ejemplos;
 
 import javax.swing.JOptionPane;
 

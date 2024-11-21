@@ -1,4 +1,4 @@
-package claseprogramacion.semana4;
+package claseprogramacion.semana4.ejemplos;
 
 public class ejerciciorecursividad {
     public static int funcion(){

@@ -1,5 +1,5 @@
 //recursividad es llamar a la misma funcion otra vez
-package claseprogramacion.semana4;
+package claseprogramacion.semana4.ejemplos;
 
 public class recursividad {
  

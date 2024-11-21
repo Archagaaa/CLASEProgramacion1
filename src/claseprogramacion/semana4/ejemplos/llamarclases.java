@@ -1,4 +1,4 @@
-package claseprogramacion.semana4;
+package claseprogramacion.semana4.ejemplos;
 
 public class llamarclases {
     public static void main(String[] args) {

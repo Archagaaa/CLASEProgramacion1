@@ -1,4 +1,4 @@
-package claseprogramacion.semana5;
+package claseprogramacion.semana5.ejemplos;
 
 import java.util.Random;
 
