@@ -13,7 +13,7 @@ public class procedimientorestaurante {
     int contadoreconomica, contadorregular, contadorpremium, contadorclientes;
     double totalventa;
     
-    
+    //PROCEDIMIENTO PARA LA VENTA
     public void comprar(){
         
         //INFORMACION SOBRE EL CLIENTE
@@ -28,7 +28,7 @@ public class procedimientorestaurante {
         System.out.println("El cliente es frecuente? 1- si, 2- no");
         int frecuente = sc.nextInt();
         
-        //INFORMACION SOBRE LA COMPRA
+        //INFORMACION SOBRE LOS PRECIOS
         System.out.println("Ingrese el precio de comida ecomonica: ");
         precioeconomica = sc.nextDouble();
         System.out.println("Ingrese el precio de comida regular: ");
@@ -38,6 +38,7 @@ public class procedimientorestaurante {
         System.out.println("Ingrese el precio de los extras: ");
         precioextra = sc.nextDouble();
         
+        //PROCEDIMIENTO DE VENTA
         System.out.println("Seleccione el numero del tipo de plato: 1- economico, 2- regular, 3- premium");
         int tipodeplato = sc.nextInt();
         double precioinicial = 0;
@@ -75,7 +76,7 @@ public class procedimientorestaurante {
             preciofinal = precioinicial + precioextra;
         }
         
-        //MAYOR DE EDAD O NO
+        //MAYOR DE EDAD O NO Y FRECUENET SI O NO
         if(edad >= 65 && frecuente == 1){  //frecuente 1 siginifica si y 2 no
             preciofinal = preciofinal * 0.40;
         }
@@ -92,6 +93,7 @@ public class procedimientorestaurante {
         contadorclientes++;
         totalventa += preciofinal;
         
+        //MOSTRAR LA INFO
         System.out.println("====FACTURA====");
         System.out.println("Nombre: "+nombre);
         System.out.println("Direccion: "+direccion);
@@ -102,6 +104,7 @@ public class procedimientorestaurante {
         System.out.println("=========================");
     }
     
+    //METODO PARA MOSTRAR EL RESUMEN
     public void resumen(){
         System.out.println("====RESUMEN DEL DIA====");
         System.out.println("Clientes atendidos: " + contadorclientes);
