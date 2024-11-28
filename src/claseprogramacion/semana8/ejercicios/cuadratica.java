@@ -1,5 +1,7 @@
 package claseprogramacion.semana8.ejercicios;
 
+import java.text.DecimalFormat;
+
 public class cuadratica extends javax.swing.JFrame {
 
     public cuadratica() {
@@ -154,10 +156,11 @@ public class cuadratica extends javax.swing.JFrame {
             double resultado1, resultado2;
             resultado1 = (-b + discriminante) / (2 * a);
             resultado2 = (-b - discriminante) / (2 * a);
-            
+            DecimalFormat formato = new DecimalFormat();
+            formato.setMaximumFractionDigits(2);
             //Mostrar resultados
-            r1.setText(String.valueOf(resultado1)); //pasar a string
-            r2.setText(String.valueOf(resultado2));
+            r1.setText(formato.format(resultado1)); //pasar a string
+            r2.setText(formato.format(resultado2));
             
         } catch(Exception e){ //Mostrar cuando hay error
             r1.setText("Datos incorrectos");
